@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo,.sociais{
+    width: 25%;
+}
+
+.logo img{
+    width: 180px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #FF2500, #FF4500);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+    width: 30px;
+
+}
+
+/* alterar botoes */
+.sociais button{
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(45deg, #FF2500, #FF4500);
+    border: none;
+    margin-right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* mudar icones dos botoes */
+.sociais button i{
+    font-size: 20px;
+    color: white;
+}
+
+/* tentativa2 */
+
+.principal{
+    height:70vh;
+    display: flex;
+    background-color: #FFFACD width:100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .perfil-icon{
+    width:290px; 
+    height:290px;
+    cursor:pointer;
+  }
+
+  .sub-container-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+
+.apresentacao{
+    font-size: 36px;
+    color:#FF4500;
+    font-weight: 700px;
+    height: 45px;
+    font-style:oblique;
+}
+
+.profissao{
+    height: 60px;
+    color: #FF8C00;
+}
+
+.texto-sobre{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+  
+.article-lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .topico-principal{
+    font-size: 25px;
+    color:#FF2500;
+  }
+
+  .lista-item{
+    padding: 32px;
+    
+  }
+
+  .formacao-article-lista{
+    height: 60vh;
+    width: 100vh;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+
+  .projetos-article-lista{
+
+    width: 100vh;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+
+  .sobre-article-lista{
+    height: 60vh;
+    width: 100vh;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+
+  .contato-article-rodape{
+    height: 60vh;
+    width: 100vh;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+
+  section{
+    margin: 30px;
+  }
+
+  .tituloListas{
+    font-style:italic;
+    font-size: 20px;
+  }
+
+
+
+  footer{
+        padding: 10px;
+        background-color: #000000;
+}
+
