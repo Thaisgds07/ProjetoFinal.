@@ -7,6 +7,10 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+body{
+  background-color:#1C1C1C;
+}
+
 .container{
     max-width: 1080px;
     margin: 0 auto;
@@ -18,7 +22,7 @@
 header{
     background-color: black;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
 }
 
 .logo,.sociais{
@@ -26,7 +30,7 @@ header{
 }
 
 .logo img{
-    width: 180px;
+    width: 190px;
     cursor: pointer;
 }
 
@@ -78,13 +82,12 @@ header{
 
 .principal{
     height:70vh;
-    display: flex;
-    background-color: #FFFACD width:100%;
     max-width: 1080px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+
   }
 
   .perfil-icon{
@@ -118,6 +121,11 @@ header{
 .texto-sobre{
     font-size: 20px;
     line-height: 32px;
+    color: white;
+}
+
+.paragrafos{
+  color: white;
 }
 
   
@@ -152,7 +160,7 @@ header{
   .projetos-article-lista{
 
     width: 100vh;
-    
+    height: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -189,12 +197,13 @@ header{
   .tituloListas{
     font-style:italic;
     font-size: 20px;
+    color:#FF8C00;
   }
 
-
-
   footer{
-        padding: 10px;
+        padding: 30px;
         background-color: #000000;
+        align-items: center;
+        
 }
 
